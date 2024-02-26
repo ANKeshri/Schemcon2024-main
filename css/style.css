@@ -376,7 +376,7 @@ a:focus, a:hover {
 }
 
 .single-page-header {
-  background-image: url("../images/about/about-header.jpg");
+  background-image: url("./images/about/about-header.jpg");
   background-size: cover;
   padding: 140px 0 70px;
   text-align: center;
@@ -403,10 +403,11 @@ a:focus, a:hover {
   display: none;
   width: 85px;
   height: 85px;
+  
 }
 .logo-white {
   width: 85px;
-  height: 85px;
+  height: 85px;  
 }
 .navigation .dropdown-toggle::before, .navigation .dropdown-toggle::after {
   display: none;
@@ -636,7 +637,7 @@ a:focus, a:hover {
 }
 
 .hero-area {
-  background: url(https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif);
+  background: url(/images/Renewable\ Bg.webp);
   background-size: cover;
   height: 100vh;
   position: relative;
