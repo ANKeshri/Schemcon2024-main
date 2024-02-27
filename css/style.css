@@ -406,9 +406,10 @@ a:focus, a:hover {
   
 }
 .logo-white {
-  width: 85px;
-  height: 85px;  
+  width: auto;
+  height: 85px;
 }
+
 .navigation .dropdown-toggle::before, .navigation .dropdown-toggle::after {
   display: none;
 }
