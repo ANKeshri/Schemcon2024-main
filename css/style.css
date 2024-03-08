@@ -1480,50 +1480,36 @@ justify-content: flex-start;
   z-index: 999;
 }
 
-.pricing-table .pricing-item {
-  border-radius: 12px;
-  padding: 40px 55px 65px;
-  background: #fff;
-  margin-bottom: 30px;
-  height: 450px;
+.registrationtable,
+  .regtab,
+  .tabheading th {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+  
+  }
+.participantcat{
+  text-align: center;
 }
 
-.pricing-table .pricing-item a.btn-main {
-  text-transform: uppercase;
-  margin-top: 20px;
-}
+  .tabheading th {
+    background-color: #0b5688;
+    color: #f1d276;
+    padding: 5px;
+   
+  }
 
-.pricing-table .pricing-item li {
-  font-weight: 400;
-  padding: 10px 0;
-  color: #666;
-}
+  .regtab {
+    text-align: center;
+    padding: 5px;
+  }
 
-.pricing-table .pricing-item li i {
-  margin-right: 6px;
-}
-
-.pricing-table .price-title {}
-
-.pricing-table .price-title>h3 {
-  font-weight: 600;
-  margin: 0 0 5px;
-  font-size: 18px;
-  text-transform: uppercase;
-}
-
-.pricing-table .price-title>p {
-  font-size: 16px;
-  font-weight: 800;
-  line-height: 18px;
-  margin-top: 5px;
-}
-
-.pricing-table .price-title .value {
-  color: #0b5688;
-  font-size: 50px;
-  padding: 10px 0;
-}
+  .partcat {
+    text-align: left;
+  }
+  .iicheth{
+   text-align: center;
+  }
 
 /*=================================================================
   Schedule section
