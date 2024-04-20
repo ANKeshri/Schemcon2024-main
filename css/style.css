@@ -3727,3 +3727,27 @@ form .button-area {
   }
 
 
+  
+/* Responsive code for pdf doc and google form- submission page */
+@media screen and (max-width: 576px) {
+  .submission-container {
+      width: 100%;
+      margin: 0;
+  }
+}
+
+/* For tablets and larger screens */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .submission-container {
+      width: 85%;
+      margin: auto;
+  }
+}
+
+/* For desktops and larger screens */
+@media screen and (min-width: 993px) {
+  .submission-container {
+      width: 70%;
+      margin: auto;
+  }
+}
