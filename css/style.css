@@ -1951,12 +1951,13 @@ h2{
   Our Teams section experimental
 ==================================================================*/
 
+
 * {
   font-family: Nunito, sans-serif;
 }
 
 .text-blk {
-  margin-top: 0px;
+  margin-top: -5px;
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
@@ -2023,29 +2024,83 @@ h2{
 }
 
 .img-wrapper {
-  width: 100%;
+  width: 10rem;
+  height: 10rem;
+}
+.img-wrapper img{
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  /* padding:4rem; */
+  /* border:2px solid rgb(0, 135, 177); */
+  margin: 1rem 1rem;
+  /* box-shadow: 0px 0px 4px 10px rgba(40, 38, 38, 0.3); */
 }
 
 .team-card {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 2px solid rgb(0, 135, 177);
+  border-radius: 1rem;
+  margin: 0px 1rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  height: 25rem;
+  width: 18vw;
+  justify-content: space-evenly;
+}
+
+.Chief-Patron{
+  border: 2px solid rgb(0, 135, 177);
+  border-radius: 1rem;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(0, 135, 177);
+  border-radius: 1rem;
+  margin: 0px 1rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  height: 25rem;
+  
+}
+.team-card-head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(0, 135, 177);
+  border-radius: 1rem;
+  margin: 0px 1rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  height: 25rem;
+  width: 25vw;
+  justify-content: space-evenly;
 }
 
 .social-media-links {
   width: 125px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
+.social-media-links i{
+  margin: 1rem;
+  height: 1rem;
+  width: 1rem;
+}
+
 
 .name {
   font-size: 25px;
   font-weight: 700;
   color: rgb(102, 102, 102);
-  margin-top: 0px;
+  margin-top: 2rem;
   margin-right: 0px;
   margin-bottom: 5px;
   margin-left: 0px;
+  text-align: center;
 }
 
 .position {
@@ -2054,7 +2109,7 @@ h2{
   color: rgb(0, 135, 177);
   margin-top: 0px;
   margin-right: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 1rem;
   margin-left: 0px;
 }
 
