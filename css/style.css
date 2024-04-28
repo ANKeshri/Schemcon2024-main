@@ -3709,9 +3709,9 @@ form .button-area {
   100% {
     transform: translateX(-200%);
 
-  }
+  }}
 
-  .places {
+ .places {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
