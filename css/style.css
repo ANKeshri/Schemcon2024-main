@@ -2086,16 +2086,17 @@ h2{
 }
 
 .Chief-Patron {
-  border: 2px solid rgb(0, 135, 177);
+  border: 2px solid #ddd;
   border-radius: 1rem;
-  width: 50vw;
+  width: 80%; /* Adjusted width for better responsiveness */
+  max-width: 600px; /* Limiting maximum width for larger screens */
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0px 1rem;
+  margin: 0 auto; /* Center the container horizontally */
   padding: 1rem;
   box-sizing: border-box;
-  height: 25rem;
+  height: auto; /* Allowing height to adjust based on content */
 }
 
 .team-card-head {
