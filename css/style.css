@@ -3829,3 +3829,28 @@ form .button-area {
       margin: auto;
   }
 }
+
+/* For Sposnsorship Sliders in home page */
+.custom-slider-01 img {
+  width: 100px;
+  height: 100px;
+  /* animation: custom-scroll 6s linear infinite; */
+}
+
+.custom-slide-track-02 {
+  width: 100%;
+  display: flex;
+  gap: 3em;
+  overflow: hidden;
+}
+
+.custom-slider-01 {
+  margin-top: 50px;
+  background-color: whitesmoke;
+  padding: 5em 2em;
+}
+
+@keyframes custom-scroll{
+  0% {transform: translateX(0);}
+  100% {transform: translateX(-1000%)}
+}
