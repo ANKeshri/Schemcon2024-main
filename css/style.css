@@ -3834,13 +3834,13 @@ form .button-area {
 .custom-slider-01 img {
   width: 100px;
   height: 100px;
-  /* animation: custom-scroll 6s linear infinite; */
+  animation: custom-scroll 6s linear infinite;
 }
 
 .custom-slide-track-02 {
   width: 100%;
   display: flex;
-  gap: 3em;
+  gap: 10em; /* 3em was default */
   overflow: hidden;
 }
 
