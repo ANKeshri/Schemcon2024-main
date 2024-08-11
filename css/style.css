@@ -3936,3 +3936,135 @@ form .button-area {
         font-size: 22px;
     }
 }
+
+/* Enhanced CSS for Registration Instructions */
+.registration-instructions {
+  margin-bottom: 50px;
+  padding: 30px;
+  background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.instructions-heading {
+  font-size: 28px;
+  color: #2980b9;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.instructions-text {
+  font-size: 17px;
+  color: #34495e;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.instructions-link {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.instructions-link a {
+  font-size: 18px;
+  color: #3498db;
+  text-decoration: none;
+  background-color: #ecf0f1;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.instructions-link a:hover {
+  background-color: #2980b9;
+  color: #fff;
+}
+
+.account-details {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-left: 4px solid #3498db;
+  border-radius: 5px;
+}
+
+.account-heading {
+  font-size: 22px;
+  color: #2980b9;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.account-text {
+  font-size: 17px;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+.signature {
+  margin-top: 40px;
+  text-align: right;
+}
+
+.signature-text {
+  font-size: 16px;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .registration-instructions {
+      padding: 20px;
+  }
+
+  .instructions-heading {
+      font-size: 24px;
+  }
+
+  .instructions-text, 
+  .account-text,
+  .signature-text {
+      font-size: 15px;
+  }
+
+  .account-heading {
+      font-size: 20px;
+  }
+
+  .instructions-link a {
+      font-size: 16px;
+      padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .registration-instructions {
+      padding: 15px;
+  }
+
+  .instructions-heading {
+      font-size: 22px;
+  }
+
+  .instructions-text, 
+  .account-text,
+  .signature-text {
+      font-size: 14px;
+  }
+
+  .account-heading {
+      font-size: 18px;
+  }
+
+  .instructions-link a {
+      font-size: 14px;
+      padding: 7px 14px;
+  }
+
+  .signature {
+      text-align: left;
+  }
+}
